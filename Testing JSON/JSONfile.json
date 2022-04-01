@@ -3,25 +3,29 @@
 	{
 		"Age" : "14",
 		"First Name" : "Jon",
-		"Last Name" : "Zmuda"
+		"Last Name" : "Zmuda",
+		"Gender" : "Male"
 	},
 	"Ryan" : 
 	{
 		"Age" : "18",
 		"First Name" : "Ryan",
-		"Last Name" : "Zmuda"
+		"Last Name" : "Zmuda",
+		"Gender" : "Male"
 	},
 	"Emily": 
 	{
 		"Age": "16",
 		"First Name": "Emily",
-		"Last Name": "Zmuda"
+		"Last Name": "Zmuda",
+		"Gender" : "Female"
 	},
 	"Katie" : 
 	{
 		"Age" : "12",
 		"First Name" : "Katie",
-		"Last Name" : "Zmuda"
+		"Last Name" : "Zmuda",
+		"Gender" : "Female"
 	}
 }
 

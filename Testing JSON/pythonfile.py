@@ -1,7 +1,12 @@
 import json
 
-with open('C:\\Users\\jonzm\\Desktop\\Projects\\Testing JSON\\JSONfile.json') as f:
-    data = json.load(f)
-    name = input('Name: ')
-    for key in data[name]:
-        print(key + ': ' + data[name][key])
+
+while True:
+    with open('JSONfile.json') as f:
+        data = json.load(f)
+        name = input('Name: ')
+        try:
+            for key in data[name]:
+                print(key + ': ' + data[name] [key])
+        except KeyError:
+            print('Thats not a name!')
